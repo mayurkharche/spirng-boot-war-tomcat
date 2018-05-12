@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage ('Detect Jenkins File') {
             steps {
-                echo 'Jeninsfile detected'
+                cd web
             }
         }
     }
